@@ -90,3 +90,11 @@ div[id=specificity]{
 p{
     background-color: tomato !important;
 }
+
+.flex-1{
+    width: 33.3%;
+    height: 400px;;
+    background-color: gray;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}

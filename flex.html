@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>flex</title>
+    <style>
+        .parent {
+            overflow: hidden;
+            display: flex;
+            /*flex-wrap: wrap;*/
+            border: 2px solid black;
+            color: white;
+            resize: both;
+            align-items: baseline;
+            justify-content: space-evenly;
+        }
+
+        .parent-2 {
+            overflow: hidden;
+            display: flex;
+            /*flex-wrap: wrap;*/
+            border: 2px solid black;
+            color: white;
+            resize: both;
+            align-items: baseline;
+            justify-content: space-between;
+        }
+
+
+        .parent-3 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            resize: both;
+            border: 2px solid black;
+            overflow: hidden;
+            
+        }
+
+        .class {
+            width: 150px;
+            height: 150px;
+            
+
+        }
+
+        .class-1 {
+
+            background-color: red;
+        }
+
+        .class-2 {
+
+            background-color: blue;
+        }
+
+        .class-3 {
+
+            background-color: green;
+        }
+
+        .class-4 {
+
+            background-color: wheat;
+        }
+
+        .class-5 {
+
+            background-color: black;
+        }
+
+        .class-6 {
+
+            background-color: grey;
+        }
+
+
+        .class-7 {
+
+            background-color: wheat;
+        }
+
+        .class-8 {
+
+            background-color: black;
+        }
+
+        .class-9 {
+
+            background-color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="class class-1">abc</div>
+        <div class=" class class-2">bcd</div>
+        <div class=" class class-3">def</div>
+    </div>
+
+    <div class="parent-2">
+        <div class="class class-4">abc</div>
+        <div class="class class-5">
+            <p>bcd</p>
+        </div>
+        <div class="class class-6">def</div>
+    </div>
+
+    <div class="parent-3">
+        <div class="class class-7">abc</div>
+        <div class="class class-8">bcd</div>
+        <div class="class class-9">def</div>
+    </div>
+
+</body>
+
+</html>

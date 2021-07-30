@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>specificity</title>
+
+    <style>
+        h1.header-1 {
+            color: aqua;
+        }
+
+        #box-1 {
+            color: blue;
+        }
+
+
+        h1#box-1 {
+            color: cornflowerblue;
+        }
+
+
+        h1 {
+            color: darkgreen;
+        }
+
+
+        ::marker {
+            color: red;
+
+        }
+
+
+        ::selection {
+            color: blue;
+            background-color: chartreuse;
+        }
+
+
+        p::first-letter {
+            color: cornflowerblue;
+            font-size: xx-large;
+        }
+
+
+        p::first-line {
+            color: crimson;
+        }
+
+        h1::before {
+            content: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn1.iconfinder.com%2Fdata%2Ficons%2Fall_google_icons_symbols_by_carlosjj-du%2F128%2Fcopyright-b.png&f=1&nofb=1    );
+
+        }
+
+        h1::after {
+            content: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn1.iconfinder.com%2Fdata%2Ficons%2Fall_google_icons_symbols_by_carlosjj-du%2F128%2Fcopyright-b.png&f=1&nofb=1    );
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="box-1" class="header-1" style="color: crimson;">header</h1>
+    <ul>
+        <li>
+            list 1
+        </li>
+    </ul>
+    <p>paragraph</p>
+</body>
+
+</html>
