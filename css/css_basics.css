@@ -79,3 +79,14 @@ div[id=specificity]{
     width: 100%;
 
 }
+
+#important{
+    text-align: center;
+    background-color: black;
+    color: white;
+
+}
+
+p{
+    background-color: tomato !important;
+}
